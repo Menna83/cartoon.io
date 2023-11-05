@@ -1,0 +1,215 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: cursive;
+    background-color: rgb(76, 76, 77)
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 90%;
+    background-color: rgb(76, 76, 77);
+    color: rgb(230, 184, 148);
+    text-align: center;
+
+}
+
+.nav-1 {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    float: left;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(230, 184, 148);
+}
+a:hover{
+color:whitesmoke ;
+}
+
+#home {
+    background-image: url(./images3/backk.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.home-cap {
+   
+    
+    position: absolute;
+    top: 35%;
+    right: 30%;
+    
+}
+
+h1 {
+    text-align: center;
+    color: rgb(210, 214, 227);
+     font-size: 90px;
+    font-weight: bolder;
+}
+
+span {
+    color: rgb(230, 184, 148);
+    text-align: center;
+}
+
+.icon {
+    position: absolute;
+    right: 0;
+    top: 90%;
+    background-color: rgb(76, 76, 77);
+    color: rgb(230, 184, 148);
+    padding: 15px;
+    font-weight: bold;
+    -webkit-transition: all 2s ease-out;
+    -moz-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    transition: 2s ease-out;
+
+
+}
+
+.icon:hover {
+
+    background-color: rgb(230, 184, 148);
+
+    color: rgb(76, 76, 77);
+    width: 100%;
+    text-align: center;
+
+}
+.icon-2 {
+    position: fixed;
+    left: 0;
+    top: 20%;
+    background-color: rgb(76, 76, 77);
+    color: rgb(230, 184, 148);
+    padding: 8px;
+    font-weight: bold;
+    -webkit-transition: all 2s ease-out;
+    -moz-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    transition: 2s ease-out;
+
+
+}
+.icon-2:hover{
+   color:rgb(76, 76, 77) ;
+   background-color: rgb(230, 184, 148); 
+}
+
+
+
+
+
+.char {
+    float: right;
+    width: 25%;
+    text-align: center;
+}
+
+.cartoon-characters img {
+    height: 100%;
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+
+#cartoon-characters h3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(230, 184, 148);
+}
+
+.head-char h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: rgb(230, 184, 148);
+}
+
+#cartoon-characters {
+    margin: 5%;
+    position: relative;
+}
+
+.btn {
+    padding-top: 2%;
+
+}
+
+#cartoon-characters .btn1 {
+    padding: 1%;
+    text-align: center;
+    font-family: cursive;
+    position: absolute;
+    top: 100%;
+    right: 45%;
+    background-color: rgb(134, 134, 136);
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+#cartoon-characters.btn1:hover{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+.story-cap {
+    padding: 13%;
+
+}
+
+.story-cap h3 {
+    color: rgb(168, 198, 235);
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.head-cap h2 {
+
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 30px;
+    color: rgb(230, 184, 148);
+}
